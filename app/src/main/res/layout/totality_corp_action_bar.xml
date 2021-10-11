@@ -9,13 +9,12 @@
 
 
     <ImageView
+        android:id="@+id/toolbar_title"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Toolbar Title"
-        android:src="@drawable/totality_corp"
-        android:layout_marginTop="7dp"
         android:layout_gravity="center"
-        android:id="@+id/toolbar_title" />
+        android:src="@drawable/totality_corp"
+        android:text="Toolbar Title" />
 
 
 
