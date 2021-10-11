@@ -15,6 +15,7 @@ import android.provider.MediaStore;
 import android.view.View;
 import android.view.animation.RotateAnimation;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -36,9 +37,9 @@ import static com.example.SiddharthBhatTotalityCorp.MainActivity.uri1;
 public class EditImageActivity extends AppCompatActivity {
 
     ImageView imageView;
-    Button rotateButton;
-    Button saveButton;
-    Button cropButton;
+    ImageButton rotateButton;
+    ImageButton saveButton;
+    ImageButton cropButton;
     int mCurrRotation = 0;
     static Bitmap rotateBitmap;
     static Bitmap cropThenRotateBitmap;
