@@ -25,8 +25,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:fontFamily="serif"
-        android:text="Select an Image"
+        android:fontFamily="@font/patrick_hand"
+        android:text="Click/Select an Image"
         android:textColor="@color/white"
         android:textSize="32sp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
@@ -48,7 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/grey"
+            android:background="@drawable/gradient_buttons"
             android:onClick="clickSelfie"
             app:layout_constraintBottom_toBottomOf="parent"
             app:srcCompat="@drawable/ic_camera" />
@@ -58,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/grey"
+            android:background="@drawable/gradient_buttons"
             android:onClick="clickGallery"
             app:srcCompat="@drawable/ic_gallery" />
     </LinearLayout>
