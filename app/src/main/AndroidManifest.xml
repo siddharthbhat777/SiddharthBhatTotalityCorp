@@ -26,8 +26,10 @@
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />
-        <activity android:name="com.example.SiddharthBhatTotalityCorp.EditImageActivity" />
-        <activity android:name="com.example.SiddharthBhatTotalityCorp.MainActivity">
+        <activity android:name="com.example.SiddharthBhatTotalityCorp.EditImageActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name="com.example.SiddharthBhatTotalityCorp.MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

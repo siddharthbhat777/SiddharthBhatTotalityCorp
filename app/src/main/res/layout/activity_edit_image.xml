@@ -7,6 +7,10 @@
     android:background="@color/black"
     tools:context=".EditImageActivity">
 
+    <include
+        android:id="@+id/include"
+        layout="@layout/totality_corp_action_bar" />
+
     <ImageView
         android:id="@+id/editImageView"
         android:layout_width="match_parent"
@@ -15,7 +19,7 @@
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/include" />
 
     <LinearLayout
         android:id="@+id/linearLayout"

@@ -7,15 +7,18 @@
     android:background="@color/black"
     tools:context=".MainActivity">
 
+    <include
+        android:id="@+id/include2"
+        layout="@layout/totality_corp_action_bar" />
+
     <ImageView
         android:id="@+id/editImageView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_margin="16dp"
         app:layout_constraintBottom_toTopOf="@+id/textView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/include2"
+        tools:layout_editor_absoluteX="16dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -28,8 +31,7 @@
         android:textSize="32sp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editImageView" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
